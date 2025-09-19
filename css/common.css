@@ -13,6 +13,28 @@ body {
   line-height: 1.5;
 }
 
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-width: 220px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  overflow: hidden;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  background: #6c8cff;
+  color: #fff;
+}
+
 .item {
   list-style: none;
   background-color: #f6f6fe;
